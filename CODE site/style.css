@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+#home{
+    background-color: #e9f8ff ;
+    padding-bottom: 10px;
+}
+#ville{
+    background-color: rgba(205, 235, 175, 0.5);
+}
+/*POLICE*/
+.righteous{
+    font-family: 'Righteous', cursive;
+}
+/* // POLICE */
+
+
+ 
+/* CAROUSEL */
+.carousel-inner{
+    border-radius: 5px;
+}
+.carousel-inner img{
+    border-radius: 5px;
+}
+.carousel-caption{
+    background-color: rgba(213, 241, 253, 0.5);
+    border-radius: 5px;
+    color: #3f6543;
+}
+/* // CAROUSEL /*
+
+/* CARD  */
+.hr_perso{
+    max-width: 50%;
+    margin-top: 35px;
+    margin-bottom: 20px;
+}
+.card_gauche{
+    border-radius: 10px 0px 0px 10px;
+}
+.card_droite{
+    border-radius: 0px 10px 10px 0px;
+}
+.title_offres{
+    background-color: rgba(205, 235, 175, 0.3);
+}
+/* // CARD */
