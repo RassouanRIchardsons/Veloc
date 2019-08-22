@@ -28,7 +28,7 @@
                             </a>
 
                             <nav id="navbar-example2" class="navbar">
-                                <ul class="nav nav-pills">
+                                <ul class="nav">
                                     <li class="nav-item">
                                         <a class="nav-link" href="">Page d'accueil</a>
                                     </li>
@@ -36,7 +36,7 @@
                                         <a class="nav-link" href="#ville">Trouvez sa borne</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Caractéristiques des vélos</a>
+                                        <a class="nav-link" href="#caracteristiques">Nos vélos</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Contact</a>
@@ -68,13 +68,13 @@
                     <div class="py-4" id="home">                  
                         <h1>
                             <a class="navbar-brand d-flex justify-content-center text-dark" href="#">
-                                <i class="fas fa-biking fa-2x mr-1"></i>
-                                <h2><u><span class="righteous">Véloc.</span></u> la location de vélo en 2"2'</h2>
+                                <i class="fas fa-biking fa-4x mr-1"></i>
+                                <h2 class="display-4"><u><span class="righteous">Véloc.</span></u> la location de vélo en 2"2'</h2>
                             </a>
                         </h1>
         <!-- CAROUSEL-->
                         <div class="bd-example d-flex justify-content-center">
-                            <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                            <div id="carouselExampleCaptions" class="carousel slide shadow-lg" data-ride="carousel">
                                 <ol class="carousel-indicators">
                                     <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
                                     <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
@@ -107,7 +107,7 @@
                         </div>
         <!-- //CAROUSEL-->
                         <br>
-                        <h2 class="ovf text-center"><a href="#">Découvrez ici nos différents types de vélo</a></h2>
+                        <h2 class="ovf text-center"><a href="#caracteristiques">Découvrez ici nos différents types de vélo</a></h2>
                         <hr class="hr_perso">
                         <h3 class="ovf text-center righteous"><u>Tout est facile !</u></h3>
                         <br>
@@ -181,35 +181,35 @@
 <!-- VILLE -->
                     <div class="py-3 border-top border-bottom" id="ville">
                         <br>
-                        <h2 class="navbar-brand d-flex justify-content-center text-dark">
-                            <a class="navbar-brand d-flex justify-content-center text-dark" href="#">
-                                <i class="fas fa-biking fa-2x mr-1"></i>
-                                <h2 class="text-center"> Louer un vélo à <span class="righteous"><u>Lille</u></span></h2>
+                        <h2 class="display-4 navbar-brand d-flex justify-content-center text-dark">
+                            <a class=" navbar-brand d-flex justify-content-center text-dark" href="#">
+                                <i class="fas fa-biking fa-4x mr-1"></i>
+                                <h2 class="display-4 text-center"> Louer un vélo à <span class="righteous"><u>Lille</u></span></h2>
                             </a>
                         </h2>
                                 
                         <div class="google_map container jumbotron jumbotron-fluid border py-3 shadow">
-                            <h3 class="display-4 ovf text-center mb-4 righteous"><u>Où trouver une borne ?</u></h3>
+                            <h2 class=" ovf text-center mb-4 righteous">Où trouver une borne ?</h2>
                             <div class="row d-flex justify-content-around mb-2">
                                 <div class="station text-center">
-                                    <h4><u>Borne rue Gambetta</u></h4>
+                                    <h4><u><a class="text-dark liens_bornes" href="https://www.google.com/maps/dir//50.6280053,3.0506935/@50.6280126,2.9806815,12z">Borne rue Gambetta</a></u></h4>
                                     <small>280 rue Léon Gambetta, 59800 Lille</small>
                                 </div>
                                 <div class="station text-center">
-                                    <h4><u>Borne Lille Flandres</u></h4>
-                                    <small>Gare lille Flandres, place des Buisses, 59800 Lille</small>
+                                    <h4><u><a class="text-dark liens_bornes" href="https://www.google.com/maps/dir//50.6365045,3.0699617/@50.6360552,3.0655452,16z">Borne Lille Flandres</a></u></h4>
+                                    <small>Gare lille Flandres, 1 rue de Tournai, 59800 Lille</small>
                                 </div>
                                 <div class="station text-center">
-                                        <h4><u>Borne parc J.B. Lebas</u></h4>
-                                        <small>46 boulevard Jean-Baptiste Lebas, 59800 Lille</small>
+                                    <h4><u><a class="text-dark liens_bornes" href="https://www.google.com/maps/dir//50.6266536,3.0689205/@50.626575,2.9984179,12z">Borne parc J.B. Lebas</a></u></h4>
+                                    <small>Boulevard Jean-Baptiste Lebas, 59800 Lille</small>
                                 </div>
                                 <div class="station text-center">
-                                        <h4><u>Borne rue Nationale</u></h4>
-                                        <small>129 rue Nationale, 59800 Lille</small>
+                                    <h4><u><a class="text-dark liens_bornes" href="https://www.google.com/maps/dir//50.6335986,3.0547622/@50.633589,3.0503606,16z">Borne rue Nationale</a></u></h4>
+                                    <small>129 rue Nationale, 59800 Lille</small>
                                 </div>
                             </div>
-                            <div class="row d-flex justify-content-center">
-                                    <iframe src="https://www.google.com/maps/d/embed?mid=1MAvgFoHg9MbNU1Rn23Us8sj2TfYPLmDx" width=95% height="480"></iframe>
+                            <div class="mt-4 row d-flex justify-content-center">
+                                <iframe src="https://www.google.com/maps/d/embed?mid=1MAvgFoHg9MbNU1Rn23Us8sj2TfYPLmDx" width=90% height="480"></iframe>
                             </div>
                             <br>
                             <p class="text-center">A l'heure actuelle à <span class="righteous"><u>Lille</u></span>, il reste <b class="nbVelo">143</b> vélos</p>
@@ -217,21 +217,25 @@
                                 
 
                         
-                        <h2 class="d-flex justify-content-center text-dark ">
-                            <a class="d-flex justify-content-center text-dark display-4" href="#">
-                                <u class="ovf text-center righteous">Je réserve tout de suite</u>
+                        <h3 class="d-flex justify-content-center text-dark ">
+                            <a class="d-flex justify-content-center text-dark" href="#">
+                                <u class="ovf text-center righteous liens_je_reserve">Je réserve tout de suite</u>
                             </a>
-                        </h2>
+                        </h3>
                     </div>
 <!-- // VILLE -->
 <!-- CARACTERISTIQUES -->
                     <div class="py-3" id="caracteristiques">
                             <h2 class="navbar-brand d-flex justify-content-center text-dark">
                                 <a class="navbar-brand d-flex justify-content-center text-dark" href="#">
-                                    <h2 class="text-center mr-1">Caractéristiques des vélos</h2>
-                                    <i class="fas fa-biking fa-2x"></i>
+                                    <i class="fas fa-biking fa-4x mr-1"></i>
+                                    <h2 class="display-4 text-center">Caractéristiques des vélos</h2>
                                 </a>
                             </h2>
+
+                            <div class="contenaire-fluid d-flex justify-content-center">
+                                <img id="velo_caracteristiques" class="mx-auto" src="img/velo.png" alt="">
+                            </div>
                     </div>
 
 

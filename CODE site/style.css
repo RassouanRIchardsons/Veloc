@@ -1,6 +1,9 @@
 *{
     box-sizing: border-box;
 }
+section{
+    overflow-x: hidden;
+}
 #home{
     background-color: #e9f8ff ;
     position: relative;
@@ -32,7 +35,7 @@
     border-radius: 5px;
 }
 .carousel-inner img{
-    border-radius: 5px;
+    border-radius: 12px;
 }
 .carousel-caption{
     background-color: rgba(213, 241, 253, 0.5);
@@ -83,3 +86,35 @@
 .google_map{
     border-radius: 12px;
 }
+/* // JUMMBOTRON GOOGLE MAP */
+
+/* IMAGES */
+#velo_caracteristiques{
+    background-color: #00000017;
+    border-radius: 76px;
+    padding: 5px;
+}
+/* // IMAGES */
+
+
+
+
+
+/* HOVER */
+.liens_je_reserve{
+    transition: 0.2s;
+    font-weight: 500;
+}
+.liens_je_reserve:hover{
+    font-size: 1.05em;
+    font-weight: 800;
+}
+.liens_bornes{
+    transition: 0.2s;
+    font-weight: 500;
+}
+.liens_bornes:hover{
+    font-size: 1.05em;
+    font-weight: 900;
+}
+/* //HOVER */
