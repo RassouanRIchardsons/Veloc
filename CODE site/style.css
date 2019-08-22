@@ -1,13 +1,20 @@
 *{
     box-sizing: border-box;
-    overflow-x: hidden;
 }
 #home{
     background-color: #e9f8ff ;
-    padding-bottom: 10px;
+    position: relative;
+    top: 109px;
 }
 #ville{
     background-color: rgba(205, 235, 175, 0.5);
+    position: relative;
+    top: 109px;
+}
+#caracteristiques{
+    background-color: #e9f8ff ;
+    position: relative;
+    top: 109px;
 }
 /*POLICE*/
 .righteous{
@@ -15,6 +22,9 @@
 }
 /* // POLICE */
 
+/* NAVBAR */
+
+/* //NAVBAR */
 
  
 /* CAROUSEL */
@@ -31,26 +41,43 @@
 }
 /* // CAROUSEL /*
 
+
+
 /* CARD  */
+.card{
+    min-height: 175px;
+}
+.card h5{
+    font-size: 2em;
+}
+
+
+
 .hr_perso{
     max-width: 50%;
     margin-top: 35px;
     margin-bottom: 20px;
 }
 .card_gauche{
-    border-radius: 10px 0px 0px 10px;
+    border-radius: 15px 0px 0px 15px;
 }
 .card_droite{
-    border-radius: 0px 10px 10px 0px;
+    border-radius: 0px 15px 15px 0px;
 }
 .title_offres{
     background-color: rgba(205, 235, 175, 0.3);
     overflow: hidden;
 }
+/* // CARD */
+
+
+
+/* OVERFLOW */
 .ovf{
     overflow: hidden;
 }
-/* // CARD */
+/* // OVERFLOW */
+
 
 /* JUMBOTRON GOOGLE MAP */
 .google_map{
