@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    overflow-x: hidden;
 }
 #home{
     background-color: #e9f8ff ;
@@ -44,5 +45,14 @@
 }
 .title_offres{
     background-color: rgba(205, 235, 175, 0.3);
+    overflow: hidden;
+}
+.ovf{
+    overflow: hidden;
 }
 /* // CARD */
+
+/* JUMBOTRON GOOGLE MAP */
+.google_map{
+    border-radius: 12px;
+}
