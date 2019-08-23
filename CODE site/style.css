@@ -3,8 +3,11 @@
 }
 section{
     overflow-x: hidden;
+<<<<<<< HEAD
     overflow-y: hidden;
 
+=======
+>>>>>>> f24d0a91ca021578ed39d0aa14c3718da9ded429
 }
 #home{
     background-color: #e9f8ff ;
