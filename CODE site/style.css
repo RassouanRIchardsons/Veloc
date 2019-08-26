@@ -4,27 +4,20 @@
 section{
     overflow-x: hidden;
     overflow-y: hidden;
-
+    padding-top: 109px;
 }
 #home{
     background-color: #e9f8ff ;
-    position: relative;
-    top: 109px;
-    padding-top: 150px;
-    padding-bottom: 130px;
+    padding-top: 50px;
+    padding-bottom: 85px;
 }
 #ville{
     background-color: rgba(205, 235, 175, 0.5);
-    position: relative;
-    top: 109px;
     padding-top: 70px;
-    padding-bottom: 130px; 
+    padding-bottom: 85px; 
 }
 #caracteristiques{
     background-color: #e9f8ff ;
-    position: relative;
-    top: 109px;
-    height: 900px;
     padding-top: 70px;
     padding-bottom: 130px; 
 }
@@ -35,7 +28,10 @@ footer{
 }
 /*POLICE*/
 .righteous{
-    font-family: 'Righteous', cursive;
+    font-family: 'Righteous', cursive!important;
+}
+.roboto{
+    font-family: 'Open Sans', sans-serif;
 }
 /* // POLICE */
 
@@ -51,10 +47,15 @@ footer{
 .carousel-inner img{
     border-radius: 12px;
 }
-.carousel-caption{
-    background-color: rgba(213, 241, 253, 0.5);
-    border-radius: 5px;
+.h5_carousel{
+    background-color: rgba(234, 255, 250, 0.46);
+    border-radius: 25px;
     color: #3f6543;
+    padding: 25px;
+    display: block;
+}
+.h5_carousel_bleu{
+    color: #477373!important;
 }
 /* // CAROUSEL /*
 /* CARD  */
@@ -66,6 +67,14 @@ footer{
 }
 .card_1{
     height: auto;
+}
+.ebauche{
+    transition: 0.4s;
+}
+.ebauche:hover{
+    height: 110%;
+    width: 110%;
+    color: black;
 }
 
 
@@ -81,7 +90,7 @@ footer{
     border-radius: 0px 15px 15px 0px; */
 }
 .title_offres{
-    background-color: rgba(205, 235, 175, 0.3);
+    background-color: rgba(205, 235, 175, 0.2);
     overflow: hidden;
 }
 /* // CARD */
@@ -101,13 +110,24 @@ footer{
 }
 /* // JUMMBOTRON GOOGLE MAP */
 
-/* IMAGES */
+/* IMAGES & SHADOW  */
 #velo_caracteristiques{
-    background-color: #00000017;
-    border-radius: 76px;
+    background-color: #fff;
+    border-radius: 31px;
     padding: 5px;
+    border: 3px solid #bebebe;
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    transition: 0.3s;
 }
-/* // IMAGES */
+.shadow_perso{
+    -webkit-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+/* // IMAGES & SHADOW  */
 
 
 
@@ -130,4 +150,13 @@ footer{
     font-size: 1.05em;
     font-weight: 900;
 }
+#velo_caracteristiques:hover{
+    width: 81%;
+}
+table:hover{
+    
+}
 /* //HOVER */
+
+
+
