@@ -3,6 +3,9 @@
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
 }
+#contenu_principal{
+    overflow-x: -moz-hidden-unscrollable;
+}
 section{
     overflow-x: hidden;
     overflow-y: hidden;
@@ -432,6 +435,9 @@ color: #b9134f;
   }
   
   /*Google*/
+  .btn-googleplus{
+    background-color: #dd4b39;
+  }
   .btn-googleplus:hover > i,.btn-googleplus:focus > i {
     color:#dd4b39
   }
@@ -441,6 +447,9 @@ color: #b9134f;
   }
   
   /*Pinterest*/
+  .btn-pinterest{
+    background-color: #cb2028;
+  }
   .btn-pinterest:hover > i,.btn-pinterest:focus > i {
     color:#cb2028
   }
@@ -450,6 +459,9 @@ color: #b9134f;
   }
 
   /*LinkedIn*/
+  .btn-linkedin{
+      background-color: #007bb6;
+  }
   .btn-linkedin:hover > i,.btn-linkedin:focus > i {
     color:#007bb6
   }
