@@ -20,11 +20,14 @@ section{
     background-color: rgba(205, 235, 175, 0.5);
     padding-top: 70px;
     padding-bottom: 85px; 
+    border-top: 5px solid #dee2e6;
+    border-bottom: 5px solid #dee2e6;
 }
 #caracteristiques{
     background-color: #e9f8ff ;
     padding-top: 70px;
     padding-bottom: 130px; 
+    border-bottom: 5px solid #dee2e6;
 }
 
 /*POLICE*/
@@ -507,4 +510,16 @@ color: #b9134f;
 .btn-twitter {
     background-color: #42AEEC;
     color: #fff;
+}
+@media screen and (max-width: 400px) {
+    #paypal-button-container {
+        width: 100%;
+    }
+}
+
+/* Media query for desktop viewport */
+@media screen and (min-width: 400px) {
+    #paypal-button-container {
+        width: 250px;
+    }
 }
