@@ -381,22 +381,21 @@
                                     </div>
                                 </div>
                                 <div class="screen-body-item">
-                                    <div class="app-form">
+                                    <form method="POST"  class="app-form">
                                         <div class="app-form-group">
-                                            <input class="app-form-control" placeholder="VOTRE NOM">
+                                            <input class="app-form-control" name="nom" placeholder="VOTRE NOM">
                                         </div>
                                         <div class="app-form-group">
-                                            <input class="app-form-control" placeholder="E-MAIL">
+                                            <input class="app-form-control"  placeholder="E-MAIL">
                                         </div>
                                         
                                         <div class="app-form-group message">
                                             <input class="app-form-control" placeholder="MESSAGE">
                                         </div>
                                         <div class="app-form-group buttons">
-                                            <button class="app-form-button">ENVOYER</button>
-                                            
+                                            <button class="app-form-button" type="submit">ENVOYER</button>
                                         </div>
-                                    </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -435,42 +434,53 @@
                                         <p class="divider-text">
                                             <span class="bg-light">OU</span>
                                         </p>
-                                        <form>
+                                        <form method="POST" action="#.php">
+                                            <!-- NOM -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-id-card-o" aria-hidden="true"></i> </span>
                                                 </div>
-                                                <input name="" class="form-control" placeholder="Nom" type="text">
+                                                <input name="nom_utilisateur" class="form-control" placeholder="Nom" type="text">
                                             </div>
+                                            <!-- PRENOM -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-id-card" aria-hidden="true"></i></span>
                                                 </div>
-                                                <input name="" class="form-control" placeholder="Prénom" type="text">
+                                                <input name="prenom_utilisateur" class="form-control" placeholder="Prénom" type="text">
                                             </div>
-                                            
+                                            <!-- E-MAIL -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                                                 </div>
-                                                <input name="" class="form-control" placeholder="Adresse mail" type="email">
-                                            </div> <!-- form-group// -->
-                                            
+                                                <input name="adresse_mail_utilisateur" class="form-control" placeholder="Adresse mail" type="email">
+                                            </div> 
+                                            <!-- DATE DE NAISSANCE -->
+                                            <div class="form-group input-group">
+                                                <div class="input-group-prepend">
+                                                    <span class="input-group-text"> <i class="fas fa-birthday-cake"></i> </span>
+                                                </div>
+                                                <input name="date_naissance_utlilisateur" class="form-control" placeholder="Date de naissance" value="Date de naissance" type="date">
+                                            </div>
+                                            <!-- PASSWORD -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                                                 </div>
-                                                <input class="form-control" placeholder="Mot de passe" type="password">
-                                            </div> <!-- form-group// -->
+                                                <input name="password_utilisateur" class="form-control" placeholder="Mot de passe" type="password">
+                                            </div> 
+                                            <!-- REPETER PASSWORD -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                                                 </div>
-                                                <input class="form-control" placeholder="Répeter votre mot de passe" type="password">
-                                            </div> <!-- form-group// -->                                      
+                                                <input name="password_utilisateur" class="form-control" placeholder="Répeter votre mot de passe" type="password">
+                                            </div>
+                                            <!-- SUBMIT -->
                                             <div class="form-group">
                                                 <button type="submit" class="btn btn-primary btn-block">Créer son compte</button>
-                                            </div> <!-- form-group// -->      
+                                            </div>       
                                             <p class="text-center">Déjà membre? <a href="" data-toggle="modal" data-target="#modalSignIn" data-dismiss="modal">Log In</a> </p>                                                                 
                                         </form>
                                     </article>
@@ -497,24 +507,25 @@
                                         <p class="divider-text">
                                             <span class="bg-light">OU</span>
                                         </p>
-                                        <form>
+                                        <form method="POST" action="#.php">
+                                            <!-- E-MAIL -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-envelope"></i> </span>
                                                 </div>
-                                                <input name="" class="form-control" placeholder="Adresse mail" type="email">
-                                            </div> <!-- form-group// -->
-                                            
+                                                <input name="adresse_mail_utilisateur" class="form-control" placeholder="Adresse mail" type="email">
+                                            </div> 
+                                            <!-- PASSWORD -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
                                                     <span class="input-group-text"> <i class="fa fa-lock"></i> </span>
                                                 </div>
-                                                <input class="form-control" placeholder="Mot de passe" type="password">
-                                            </div> <!-- form-group// -->
-                                                                                
+                                                <input name="password_utilisateur" class="form-control" placeholder="Mot de passe" type="password">
+                                            </div> 
+                                            <!-- SUBMIT -->
                                             <div class="form-group">
                                                 <button type="submit" class="btn btn-primary btn-block">Se connecter</button>
-                                            </div> <!-- form-group// -->      
+                                            </div>       
                                             <p class="text-center">Pas encore de compte?<a href="" class="pl-1" data-toggle="modal" data-target="#modalSignUp" data-dismiss="modal">Sign up</a></p>                                                                 
                                         </form>
                                     </article>
@@ -530,10 +541,9 @@
                     <div class="modal-dialog" role="document">
                         <div class="modal-content">
                             <div class="card bg-light">
-                                <article class="card-body mx-auto" style="max-width: 700px;">
-                                       
+                                <article class="card-body w-100 mx-auto" style="max-width: 700px;">
                                     <h5>Formulaire de réservation</h5>
-                                    <iframe class="pt-2 mt-2" src="https://docs.google.com/forms/d/e/1FAIpQLScAB5mnq2ZDGT02b0JuMCgED3vOh8lHPQ9n1XJ65bfUVbwrVA/viewform?embedded=true" width="100%" height="1400" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>                                    <!-- Set up a container element for the button -->
+                                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScAB5mnq2ZDGT02b0JuMCgED3vOh8lHPQ9n1XJ65bfUVbwrVA/viewform?embedded=true" width="100%" height="1370" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>                                    <!-- Set up a container element for the button -->
                                     <div class="mx-auto pt-3" id="paypal-button-container"></div>
                                     <!-- Include the PayPal JavaScript SDK -->
                                     <script src="https://www.paypal.com/sdk/js?client-id=sb&currency=USD"></script>
