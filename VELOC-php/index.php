@@ -435,7 +435,7 @@
                                         <p class="divider-text">
                                             <span class="bg-light">OU</span>
                                         </p>
-                                        <form method="POST" action="#.php">
+                                        <form method="POST" action="admin/recueil.php">
                                             <!-- NOM -->
                                             <div class="form-group input-group">
                                                 <div class="input-group-prepend">
