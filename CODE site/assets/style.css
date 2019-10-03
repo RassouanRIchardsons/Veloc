@@ -4,33 +4,48 @@
     -moz-osx-font-smoothing: grayscale;
 }
 #contenu_principal{
-    overflow-x: -moz-hidden-unscrollable;
+
+    min-height: 530px;
+    background-color: #e9f8ff;
 }
 section{
     overflow-x: hidden;
     overflow-y: hidden;
-    padding-top: 109px;
+    position: relative;
+    top: 75px;
+    padding-top: 75px;
 }
 #home{
     background-color: #e9f8ff ;
-    padding-top: 50px;
     padding-bottom: 85px;
 }
 #ville{
     background-color: rgba(205, 235, 175, 0.5);
-    padding-top: 70px;
+    padding-top: 109px;
     padding-bottom: 85px; 
     border-top: 5px solid #dee2e6;
     border-bottom: 5px solid #dee2e6;
 }
 #caracteristiques{
     background-color: #e9f8ff ;
-    padding-top: 70px;
-    padding-bottom: 130px; 
+    padding-top: 109px;
+    padding-bottom: 95px; 
     border-bottom: 5px solid #dee2e6;
+}
+#footer{
+    padding-top: 145px;
 }
 
 /*POLICE*/
+input:invalid {
+    border: 0.5px solid #f2b8b8 !important;
+}
+.thead_tableau{
+    font-size: xx-large;
+}
+.th_tableau{
+    font-size: large;
+}
 .righteous{
     font-family: 'Righteous', cursive!important;
 }
@@ -45,6 +60,11 @@ section{
 /* NAVBAR */
 
 /* //NAVBAR */
+#home h1{
+    margin-bottom: 40px;
+}
+
+
 
 /* CAROUSEL */
 .carousel-inner{
@@ -78,8 +98,8 @@ section{
     transition: 0.4s;
 }
 .ebauche:hover{
-    height: 110%;
-    width: 110%;
+    height: 102%;
+
     color: black;
 }
 
@@ -248,7 +268,8 @@ display: flex;
 flex-direction: column;
 position: relative;
 color: #ea1d6f;
-font-size: 26px;
+font-size: xx-large;
+font-weight: 800;
 }
 
 .app-title:after {
